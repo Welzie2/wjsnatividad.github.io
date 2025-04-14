@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wel John Natividad - Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f4f8fc;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0d6efd;
+      box-shadow: 0 6px 16px rgba(0, 123, 255, 0.3);
+    }
+    .social-icons a {
+      font-size: 1.5rem;
+      margin: 0 10px;
+      color: #0d6efd;
+      transition: 0.2s ease;
+    }
+    .social-icons a:hover {
+      color: #0056b3;
+    }
+    .pill {
+      margin: 3px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container text-center">
+  <img src="pic.png" alt="Profile Photo" class="profile-img mb-3">
+  <h2>Wel John Natividad</h2>
+  <p class="text-muted">BS in Computer Science - Ateneo de Davao University</p>
+
+  <div class="social-icons mb-4">
+    <a href="https://github.com/Welzie2" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/wel-john-natividad-a58a22354?trk=contact-info" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <div class="mb-4">
+    <a href="weljohnnatividad41@gmail.com" class="btn btn-outline-primary me-2"><i class="fas fa-envelope"></i> Email</a>
+    <a href="https://github.com" class="btn btn-outline-dark"><i class="fab fa-github"></i> GitHub</a>
+  </div>
+
+  <div class="mb-4">
+    <span class="badge bg-primary pill">HTML</span>
+    <span class="badge bg-success pill">CSS</span>
+    <span class="badge bg-warning text-dark pill">JavaScript</span>
+    <span class="badge bg-info text-dark pill">MySQL</span>
+    <span class="badge bg-danger pill">Node.js</span>
+    <span class="badge bg-secondary pill">Bootstrap</span>
+  </div>
+
+  <ul class="nav nav-tabs justify-content-center" id="profileTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="background-tab" data-bs-toggle="tab" data-bs-target="#background" type="button" role="tab">Background</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button" role="tab">Projects</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="research-tab" data-bs-toggle="tab" data-bs-target="#research" type="button" role="tab">Research</button>
+    </li>
+  </ul>
+
+  <div class="tab-content pt-3 text-start" id="profileTabsContent">
+    <div class="tab-pane fade show active" id="background" role="tabpanel">
+      <h5>Education</h5>
+      <ul>
+        <li><strong>BS in Information Technology</strong>, Ateneo de Davao University</li>
+      </ul>
+    </div>
+    <div class="tab-pane fade" id="projects" role="tabpanel">
+      <h5>Projects</h5>
+      <ul>
+        <li><strong>ITC Calculator</strong> - A web app using html to make a calculator</li>
+        <li><strong>Portfolio Website</strong> - A portfolio website for Event-Driven Programming</li>
+        <li><strong>Realty Appointment Website</strong> - A website we made in senior high for our project</li>
+
+      </ul>
+    </div>
+    <div class="tab-pane fade" id="research" role="tabpanel">
+      <h5>Research</h5>
+      <ul>
+        <li><strong>None</strong></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
